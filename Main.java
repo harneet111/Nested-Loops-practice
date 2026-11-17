@@ -1,16 +1,12 @@
 public class Main{
     public static void main(String[] args){
-        for (int row = 0; row < 4; row++) {
-            for (int col = 0; col < 6; col++) {
-
-                if ((row + col) % 2 == 0) {
-                    System.out.print("X ");
-                } else {
-                    System.out.print("O ");
-                }
+        for(int l=1; l<=4; l++){
+            for(int c=1; c<=l;c++){
+                System.out.print("1 ");
             }
             System.out.println();
         }
-    }
-}
 
+    }
+
+}
